@@ -1,0 +1,138 @@
+/* Paleta de colores extraída del escudo:
+   Verde: #3a8e52
+   Azul: #007bff
+   Amarillo: #ffc107
+   Rojo: #dc3545
+   Dorado: #d4af37
+   Negro: #212529
+*/
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #3a8e52;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 5px solid #007bff;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.2));
+}
+
+.titulo-proyecto h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.titulo-proyecto h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    color: #ffc107;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+section {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h3 {
+    color: #007bff;
+    font-size: 1.8rem;
+    border-bottom: 3px solid #d4af37;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: '🌱 ';
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.multimedia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.imagen-grande {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.imagen-pequena {
+    width: calc(50% - 0.5rem);
+    max-width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.video-section {
+    text-align: center;
+}
+
+.video-presentacion {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.link-boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff; /* Azul del escudo */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+}
+
+.link-boton:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .imagen-pequena {
+        width: 100%;
+        max-width: none;
+    }
+}
